@@ -1,0 +1,40 @@
+.header {
+    background-color: $color-black;
+    &__inner {
+        color: $color-white;
+        display: flex;
+        flex-direction: row;
+    }
+    &__title {
+        font-family: 'Kaushan Script', cursive;
+        flex-basis: 10%;
+        font-size: 4.8rem;
+        span {
+            font-size: 2.4rem;
+        }
+    }
+    .nav {
+        flex: 1;
+        &__items {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 50rem;
+            li {
+                text-decoration: none;
+                list-style: none;
+                color: $color-white;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        }
+    }
+    .hamburger-menu {
+        flex-basis: 10%;
+        &__inner {
+            width: 5rem;
+            height: 5rem;
+            border: 0.2rem solid $color-white;
+        }
+    }
+}
