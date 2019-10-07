@@ -4,22 +4,39 @@
         color: $color-white;
         display: flex;
         flex-direction: row;
+        align-items: center;
+    }
+    &__box-title {
+        color: $color-yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Kaushan Script', cursive;
     }
     &__title {
-        font-family: 'Kaushan Script', cursive;
         flex-basis: 10%;
         font-size: 4.8rem;
-        span {
-            font-size: 2.4rem;
-        }
+        padding: 0;
+        margin: 2.8rem 0 -2.5rem 10rem;
+         
     }
+    &__subtitle {
+        font-size: 2.4rem;
+        margin: 0 0 3.8rem 12rem;
+        padding: 0;
+       
+    }
+        
+        
+    
     .nav {
         flex: 1;
+        font-size: 1.4rem;
         &__items {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            margin-left: 50rem;
+            margin-left: 70rem;
             li {
                 text-decoration: none;
                 list-style: none;
@@ -27,14 +44,40 @@
                 text-transform: uppercase;
                 font-weight: bold;
             }
+            li:hover {
+                color: $color-yellow;
+                transition: all .3s;
+                cursor: pointer;
+            }
         }
     }
     .hamburger-menu {
         flex-basis: 10%;
+        display: flex;
+        justify-content: center;
         &__inner {
             width: 5rem;
-            height: 5rem;
+            height: 3.8rem;
             border: 0.2rem solid $color-white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            &:hover {
+                transform: scale(1.05, 1.1);
+                border: 0.2rem solid $color-yellow;
+                transition: all .2s;
+                cursor: pointer;
+            }
+        }
+        &__items {
+            margin: 0;
+            padding: 0;
+            width: 3rem;
+            height: .2rem;
+            background-color: $color-white;
         }
     }
 }
