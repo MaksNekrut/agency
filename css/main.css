@@ -56,13 +56,55 @@
         transform: scale(1.05, 1.1);
         border: 0.2rem solid #FFFF00;
         transition: all .2s;
-        cursor: pointer; }
+        cursor: pointer;
+        border-radius: 0.3rem;
+        background-color: #333; }
     .header .hamburger-menu__items {
       margin: 0;
       padding: 0;
       width: 3rem;
       height: .2rem;
       background-color: #fff; }
+
+.promo {
+  background-color: #FFFF00;
+  height: 80rem;
+  font-family: 'Montserrat', sans-serif; }
+  .promo__inner {
+    background: url("../../img/Map.png"); }
+  .promo .content__img {
+    background: url("../../img/Like.png"); }
+  .promo .content__title {
+    width: 624px;
+    height: 285px;
+    font-size: 128.5px;
+    font-weight: 900;
+    line-height: 0.74;
+    letter-spacing: -7.71px;
+    text-align: center;
+    color: #080808;
+    text-transform: uppercase; }
+  .promo .content__subtitle {
+    width: 548px;
+    height: 37px;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: normal;
+    text-align: center;
+    color: #080808; }
+  .promo .content__btn {
+    width: 196px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #000000; }
+    .promo .content__btn-inner {
+      color: #fff; }
+  .promo .content__nav .items {
+    width: 1.26rem;
+    height: 1.26rem;
+    background-color: #000;
+    border: 1px solid transparent;
+    border-radius: 50%; }
 
 :root {
   font-size: 62.5%;
