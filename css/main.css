@@ -145,6 +145,44 @@
         border: 1px solid transparent;
         border-radius: 50%; }
 
+.dream {
+  background-color: #000; }
+  .dream__inner {
+    width: 120rem; }
+  .dream__title {
+    font-size: 5.5rem;
+    color: #FFFF00;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .dream__subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.7rem; }
+  .dream__content-box .dream__title {
+    font-size: 2.9rem;
+    color: #fff; }
+  .dream__content-box .dream__info {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.7rem; }
+  .dream__btn {
+    width: 196px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #FFFF00;
+    margin-right: 27rem;
+    transform: skewX(30deg); }
+    .dream__btn button {
+      color: #000;
+      background-color: #FFFF00;
+      border: none;
+      margin: 0.7rem 4.5rem;
+      padding: 0;
+      font-family: Montserrat;
+      font-size: 18.5px;
+      font-weight: 900;
+      letter-spacing: -1.11px;
+      text-align: center;
+      transform: skewX(-30deg); }
+
 :root {
   font-size: 62.5%;
   box-sizing: border-box; }
