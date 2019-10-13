@@ -148,28 +148,48 @@
 .dream {
   background-color: #000; }
   .dream__inner {
-    width: 120rem; }
+    width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .dream__title {
     font-size: 5.5rem;
     color: #FFFF00;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: 15rem; }
   .dream__subtitle {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.7rem; }
-  .dream__content-box .dream__title {
-    font-size: 2.9rem;
-    color: #fff; }
-  .dream__content-box .dream__info {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.7rem; }
+    font-size: 1.7rem;
+    margin-top: 5rem; }
+  .dream__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem; }
+    .dream__content > :nth-child(2) > img {
+      margin-left: 5.6rem;
+      margin-right: 5.6rem; }
+    .dream__content-box .dream__content-title {
+      font-size: 2.9rem;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 4.2rem; }
+    .dream__content-box .dream__info {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 1.7rem;
+      margin-top: 3.6rem;
+      width: 31rem;
+      text-align: center; }
   .dream__btn {
     width: 196px;
     height: 42px;
     border-radius: 5px;
     background-color: #FFFF00;
     margin-right: 27rem;
-    transform: skewX(30deg); }
+    transform: skewX(30deg);
+    margin: 8.4rem 0 10rem 0; }
     .dream__btn button {
       color: #000;
       background-color: #FFFF00;
