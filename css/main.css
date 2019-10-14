@@ -203,6 +203,9 @@
       text-align: center;
       transform: skewX(-30deg); }
 
+.work {
+  background-color: #FFFF00; }
+
 :root {
   font-size: 62.5%;
   box-sizing: border-box; }
