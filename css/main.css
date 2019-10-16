@@ -238,7 +238,7 @@
     background-color: #000000;
     margin-right: 27rem;
     transform: skewX(30deg);
-    margin: 2rem auto; }
+    margin: 0 auto; }
     .work__bottom button {
       color: #fff;
       background-color: #000;
@@ -251,6 +251,14 @@
       letter-spacing: -1.11px;
       text-align: center;
       transform: skewX(-30deg); }
+
+.logos {
+  background-color: #000; }
+  .logos__img {
+    width: 170rem;
+    height: 36.4rem;
+    display: block;
+    margin: 0 auto; }
 
 :root {
   font-size: 62.5%;

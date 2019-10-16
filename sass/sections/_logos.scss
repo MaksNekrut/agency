@@ -1,0 +1,10 @@
+.logos {
+    background-color: $color-black;
+
+    &__img {
+        width: 170rem;
+        height: 36.4rem;
+        display: block;
+        margin: 0 auto;
+    }
+}
