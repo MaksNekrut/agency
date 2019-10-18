@@ -1,4 +1,72 @@
 .users {
     background-color: #252525;
     color: $color-white;
+
+    &__inner {
+        width: 120rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            font-size: 5.5rem;
+            font-weight: bold;
+            line-height: 0.74;
+            letter-spacing: -3.3px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-size: 1.7rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .info {
+            display: flex;
+
+            justify-content: space-between;
+
+            &__element {
+                width: 37rem;
+                background-color: $color-black;
+            }
+
+            &__text {
+                width: 294px;
+                opacity: 0.5;
+                font-size: 1.5rem;
+                line-height: 2;
+                text-align: left;
+                color: rgba(255, 255, 255, 0.5);
+            }
+        }
+
+
+    }
+
+    &__button {
+        width: 196px;
+        height: 42px;
+        border-radius: 5px;
+        background-color: #000000;
+        margin-right: 27rem;
+        transform: skewX(30deg);
+        margin: 0 auto;
+
+        .btn {
+            color: $color-white;
+            background-color: $color-black;
+            border: none;
+            margin: 0.7rem 4.5rem;
+            padding: 0;
+            font-family: Montserrat;
+            font-size: 18.5px;
+            font-weight: 900;
+            letter-spacing: -1.11px;
+            text-align: center;
+            transform: skewX(-30deg);
+        }
+    }
 }
