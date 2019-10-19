@@ -313,6 +313,12 @@
       text-align: center;
       transform: skewX(-30deg); }
 
+.forms {
+  background-color: #FFFF00; }
+  .forms input,
+  .forms textarea {
+    background-color: #000; }
+
 :root {
   font-size: 62.5%;
   box-sizing: border-box; }
