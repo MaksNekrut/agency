@@ -315,9 +315,65 @@
 
 .forms {
   background-color: #FFFF00; }
-  .forms input,
-  .forms textarea {
-    background-color: #000; }
+  .forms__inner {
+    width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+  .forms .forms-title {
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 0.74;
+    letter-spacing: -3.3px;
+    text-align: center;
+    color: #080808; }
+  .forms .forms-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .forms .forms-info__inner_left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 1.6rem; }
+    .forms .forms-info__inner_right {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 65rem; }
+      .forms .forms-info__inner_right input {
+        flex-basis: 46%;
+        margin: 1rem;
+        border: 1px solid #000;
+        border-radius: 10px;
+        height: 3rem;
+        background-color: #000;
+        color: #fff; }
+      .forms .forms-info__inner_right textarea {
+        flex-basis: 100%;
+        background-color: #000;
+        color: #fff; }
+  .forms__btn {
+    width: 196px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #000000;
+    margin-right: 27rem;
+    transform: skewX(30deg);
+    margin: 0 auto; }
+    .forms__btn button {
+      color: #fff;
+      background-color: #000;
+      border: none;
+      margin: 0.7rem 4.5rem;
+      padding: 0;
+      font-family: Montserrat;
+      font-size: 18.5px;
+      font-weight: 900;
+      letter-spacing: -1.11px;
+      text-align: center;
+      transform: skewX(-30deg); }
 
 :root {
   font-size: 62.5%;
