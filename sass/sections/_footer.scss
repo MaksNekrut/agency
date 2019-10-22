@@ -1,4 +1,78 @@
 .footer {
     background-color: $color-black;
     color: $color-white;
+
+    &__inner {
+        margin: 0 auto;
+        width: 120rem;
+        height: 45rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &__content {
+        flex-basis: 23%;
+        margin-top: 10rem;
+    }
+
+    &__title {
+        font-size: 3.8rem;
+        font-family: 'Kaushan Script', cursive;
+
+        line-height: 2rem;
+
+        span {
+            font-size: 2.2rem;
+            font-family: 'Kaushan Script', cursive;
+            margin: 0 0 0 3rem;
+        }
+    }
+
+    &__title-info {
+        margin-top: 3rem;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1.7rem;
+
+    }
+
+    &__item {
+        font-size: 1.9rem;
+        margin: 0 0 0 8rem;
+        margin-bottom: 1.5rem;
+
+        a {
+            text-decoration: none;
+            color: $color-white;
+        }
+
+        i {
+            color: $color-yellow;
+        }
+
+
+    }
+
+    &__item-first {
+        font-size: 1.9rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 0 0 8rem;
+        margin-bottom: 5rem;
+
+        a {
+            text-decoration: none;
+            color: $color-white;
+        }
+
+    }
+
+    &__copyright {
+        height: 10rem;
+        text-align: center;
+        color: #0c0c0c;
+        font-size: 1.7rem;
+        background-color: $color-yellow;
+        padding-top: 4rem;
+    }
 }
