@@ -72,17 +72,21 @@
   font-family: "Montserrat", sans-serif; }
   .promo__inner {
     background: url("../../img/Map.png") no-repeat;
-    background-size: cover;
-    height: 87rem; }
+    height: 90rem;
+    display: flex;
+    flex-direction: column; }
   .promo .content__title-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: space-between; }
+    .promo .content__title-box * {
+      margin-bottom: 5rem; }
   .promo .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-shrink: 1; }
     .promo .content__img {
       width: 46.8rem;
       height: 45.8rem;
@@ -133,11 +137,11 @@
       flex-direction: row;
       justify-content: space-between;
       width: 12.6rem;
-      height: 6rem;
-      margin-top: 25rem;
+      flex-basis: 15%;
       margin-left: 50%;
       transform: translateX(-50%);
-      padding-bottom: 5rem; }
+      padding-bottom: 5rem;
+      margin-top: auto; }
       .promo .content__nav .items {
         width: 1.26rem;
         height: 1.26rem;
@@ -162,7 +166,9 @@
   .dream__subtitle {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.7rem;
-    margin-top: 5rem; }
+    margin-top: 5rem;
+    width: 98rem;
+    text-align: center; }
   .dream__content {
     display: flex;
     justify-content: space-between;
@@ -170,18 +176,19 @@
     .dream__content > :nth-child(2) > img {
       margin-left: 5.6rem;
       margin-right: 5.6rem; }
-    .dream__content-box .dream__content-title {
-      font-size: 2.9rem;
-      color: #fff;
-      text-transform: uppercase;
-      text-align: center;
-      margin-top: 4.2rem; }
-    .dream__content-box .dream__info {
-      color: rgba(255, 255, 255, 0.5);
-      font-size: 1.7rem;
-      margin-top: 3.6rem;
-      width: 31rem;
+    .dream__content-box {
       text-align: center; }
+      .dream__content-box .dream__content-title {
+        font-size: 2.9rem;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 4.2rem; }
+      .dream__content-box .dream__info {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1.7rem;
+        margin: 3.6rem auto 0 auto;
+        width: 31rem; }
   .dream__btn {
     width: 196px;
     height: 42px;
@@ -207,6 +214,7 @@
   background-color: #FFFF00; }
   .work__inner {
     width: 100%;
+    min-height: 120rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -224,7 +232,8 @@
     height: 5.7rem;
     font-size: 1.7rem;
     text-align: center;
-    color: #000; }
+    color: #000;
+    margin-bottom: 5rem; }
   .work__img {
     width: 140rem;
     display: flex;
@@ -232,25 +241,29 @@
     justify-content: center;
     margin: 0 auto; }
   .work__bottom {
-    width: 196px;
-    height: 42px;
-    border-radius: 5px;
-    background-color: #000000;
-    margin-right: 27rem;
-    transform: skewX(30deg);
-    margin: 0 auto; }
-    .work__bottom button {
-      color: #fff;
-      background-color: #000;
-      border: none;
-      margin: 0.7rem 4.5rem;
-      padding: 0;
-      font-family: Montserrat;
-      font-size: 18.5px;
-      font-weight: 900;
-      letter-spacing: -1.11px;
-      text-align: center;
-      transform: skewX(-30deg); }
+    width: 100%;
+    height: 38rem;
+    margin: 8rem 45% 0;
+    background-image: url(../../img/work10.png);
+    background-size: cover; }
+    .work__bottom-inner {
+      width: 196px;
+      height: 42px;
+      border-radius: 5px;
+      background-color: #000000;
+      transform: skewX(30deg); }
+      .work__bottom-inner button {
+        color: #fff;
+        background-color: #000;
+        border: none;
+        margin: 0.7rem 4.5rem;
+        padding: 0;
+        font-family: Montserrat;
+        font-size: 18.5px;
+        font-weight: 900;
+        letter-spacing: -1.11px;
+        text-align: center;
+        transform: skewX(-30deg); }
 
 .logos {
   background-color: #000; }

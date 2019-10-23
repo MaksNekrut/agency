@@ -5,8 +5,9 @@
 
   &__inner {
     background: url("../../img/Map.png") no-repeat;
-    background-size: cover;
-    height: 87rem;
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .content__title-box {
@@ -14,12 +15,17 @@
     flex-direction: column;
     align-items: center;
     align-content: space-between;
+
+    * {
+      margin-bottom: 5rem;
+    }
   }
 
   .content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-shrink: 1;
 
     &__img {
       width: 46.8rem;
@@ -81,11 +87,11 @@
       flex-direction: row;
       justify-content: space-between;
       width: 12.6rem;
-      height: 6rem;
-      margin-top: 25rem;
+      flex-basis: 15%;
       margin-left: 50%;
       transform: translateX(-50%);
       padding-bottom: 5rem;
+      margin-top: auto;
 
       .items {
         width: 1.26rem;
