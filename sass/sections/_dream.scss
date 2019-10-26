@@ -29,15 +29,17 @@
     display: flex;
     justify-content: space-between;
     margin-top: 5rem;
-    & > :nth-child(2) {
-      & > img {
+
+    &> :nth-child(2) {
+      &>img {
         margin-left: 5.6rem;
         margin-right: 5.6rem;
       }
     }
+
     &-box {
       text-align: center;
-      
+
       .dream__content-title {
         font-size: 2.9rem;
         color: $color-white;
@@ -50,8 +52,8 @@
         color: rgba(255, 255, 255, 0.5);
         font-size: 1.7rem;
         margin: 3.6rem auto 0 auto;
-       width: 31rem;
-        
+        width: 31rem;
+
       }
     }
   }
@@ -64,12 +66,14 @@
     margin-right: 27rem;
     transform: skewX(30deg);
     margin: 8.4rem 0 10rem 0;
+
     button {
       color: $color-black;
       background-color: $color-yellow;
       border: none;
-      margin: 0.7rem 4.5rem;
-      padding: 0;
+      text-transform: uppercase;
+      margin: 0.9rem 3rem;
+      padding: 0 0 0 1rem;
       font-family: Montserrat;
       font-size: 18.5px;
       font-weight: 900;
