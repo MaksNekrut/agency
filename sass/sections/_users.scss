@@ -22,7 +22,7 @@
         }
 
         .subtitle {
-            font-size: 1.7rem;
+            font-size: 1.8rem;
             font-weight: bold;
             text-align: center;
             margin-top: -1rem;
@@ -90,9 +90,9 @@
         height: 42px;
         border-radius: 5px;
         background-color: $color-yellow;
-        margin-right: 27rem;
         transform: skewX(30deg);
-        margin: 0 auto;
+        margin: 0 auto 4rem auto;
+
 
         .btn {
             color: $color-black;

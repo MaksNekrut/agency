@@ -91,7 +91,11 @@
       width: 46.8rem;
       height: 45.8rem;
       padding-top: 15rem;
-      padding-left: 25rem; }
+      padding-left: 25rem;
+      position: relative; }
+    .promo .content .shadow {
+      position: absolute;
+      top: 52rem; }
     .promo .content__title {
       width: 624px;
       height: 285px;
@@ -166,7 +170,7 @@
     margin-top: 15rem; }
   .dream__subtitle {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin-top: 5rem;
     width: 98rem;
     text-align: center; }
@@ -232,7 +236,7 @@
   .work__subtitle {
     width: 97.8rem;
     height: 5.7rem;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     text-align: center;
     color: #000;
     margin-bottom: 5rem; }
@@ -297,7 +301,7 @@
       text-transform: uppercase;
       margin-top: 7rem; }
     .users__inner .subtitle {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       font-weight: bold;
       text-align: center;
       margin-top: -1rem;
@@ -342,9 +346,8 @@
     height: 42px;
     border-radius: 5px;
     background-color: #FFFF00;
-    margin-right: 27rem;
     transform: skewX(30deg);
-    margin: 0 auto; }
+    margin: 0 auto 4rem auto; }
     .users__button .btn {
       color: #000;
       background-color: #FFFF00;
@@ -480,7 +483,8 @@
       text-decoration: none;
       color: #fff; }
     .footer__item i {
-      color: #FFFF00; }
+      color: #FFFF00;
+      margin-right: 1rem; }
   .footer__item-first {
     font-size: 1.9rem;
     text-transform: uppercase;
