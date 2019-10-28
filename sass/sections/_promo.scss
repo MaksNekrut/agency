@@ -74,6 +74,7 @@
       background-color: #000000;
       margin-right: 27rem;
       transform: skewX(30deg);
+      cursor: pointer;
 
       &-inner {
         color: $color-white;
@@ -88,6 +89,7 @@
         letter-spacing: -1.11px;
         text-align: center;
         transform: skewX(-30deg);
+        cursor: pointer;
       }
     }
 

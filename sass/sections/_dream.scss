@@ -66,6 +66,7 @@
     margin-right: 27rem;
     transform: skewX(30deg);
     margin: 8.4rem 0 10rem 0;
+    cursor: pointer;
 
     button {
       color: $color-black;
@@ -80,6 +81,8 @@
       letter-spacing: -1.11px;
       text-align: center;
       transform: skewX(-30deg);
+      cursor: pointer;
+      
     }
   }
 }

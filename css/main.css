@@ -123,7 +123,8 @@
       border-radius: 5px;
       background-color: #000000;
       margin-right: 27rem;
-      transform: skewX(30deg); }
+      transform: skewX(30deg);
+      cursor: pointer; }
       .promo .content__btn-inner {
         color: #fff;
         background-color: #000;
@@ -136,7 +137,8 @@
         font-weight: 900;
         letter-spacing: -1.11px;
         text-align: center;
-        transform: skewX(-30deg); }
+        transform: skewX(-30deg);
+        cursor: pointer; }
     .promo .content__nav {
       display: flex;
       flex-direction: row;
@@ -201,7 +203,8 @@
     background-color: #FFFF00;
     margin-right: 27rem;
     transform: skewX(30deg);
-    margin: 8.4rem 0 10rem 0; }
+    margin: 8.4rem 0 10rem 0;
+    cursor: pointer; }
     .dream__btn button {
       color: #000;
       background-color: #FFFF00;
@@ -214,7 +217,8 @@
       font-weight: 900;
       letter-spacing: -1.11px;
       text-align: center;
-      transform: skewX(-30deg); }
+      transform: skewX(-30deg);
+      cursor: pointer; }
 
 .work {
   background-color: #FFFF00; }
@@ -271,7 +275,8 @@
         font-weight: 900;
         letter-spacing: -1.11px;
         text-align: center;
-        transform: skewX(-30deg); }
+        transform: skewX(-30deg);
+        cursor: pointer; }
 
 .logos {
   background-color: #000; }
@@ -347,7 +352,8 @@
     border-radius: 5px;
     background-color: #FFFF00;
     transform: skewX(30deg);
-    margin: 0 auto 4rem auto; }
+    margin: 0 auto 4rem auto;
+    cursor: pointer; }
     .users__button .btn {
       color: #000;
       background-color: #FFFF00;
@@ -360,7 +366,8 @@
       letter-spacing: -1.11px;
       text-align: center;
       transform: skewX(-30deg);
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      cursor: pointer; }
 
 .forms {
   background-color: #FFFF00; }
@@ -435,7 +442,8 @@
     background-color: #000000;
     margin-right: 27rem;
     transform: skewX(30deg);
-    margin: 0 auto; }
+    margin: 0 auto;
+    cursor: pointer; }
     .forms__btn button {
       color: #fff;
       background-color: #000;
@@ -448,7 +456,8 @@
       letter-spacing: -1.11px;
       text-align: center;
       transform: skewX(-30deg);
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      cursor: pointer; }
 
 .footer {
   background-color: #000;
@@ -482,6 +491,9 @@
     .footer__item a {
       text-decoration: none;
       color: #fff; }
+    .footer__item a:hover {
+      color: #FFFF00;
+      cursor: pointer; }
     .footer__item i {
       color: #FFFF00;
       margin-right: 1rem; }
@@ -493,7 +505,10 @@
     margin-bottom: 5rem; }
     .footer__item-first a {
       text-decoration: none;
-      color: #fff; }
+      color: #fff;
+      cursor: pointer; }
+    .footer__item-first a:hover {
+      color: #FFFF00; }
   .footer__copyright {
     height: 10rem;
     text-align: center;
