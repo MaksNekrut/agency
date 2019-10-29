@@ -68,6 +68,11 @@
     margin: 8.4rem 0 10rem 0;
     cursor: pointer;
 
+    &:active {
+      transform: translateY(-2px);
+      transition: .3s;
+    }
+
     button {
       color: $color-black;
       background-color: $color-yellow;
@@ -82,7 +87,7 @@
       text-align: center;
       transform: skewX(-30deg);
       cursor: pointer;
-      
+
     }
   }
 }

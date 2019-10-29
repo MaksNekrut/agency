@@ -33,13 +33,11 @@
       padding-top: 15rem;
       padding-left: 25rem;
       position: relative;
-
     }
 
     .shadow {
       position: absolute;
       top: 52rem;
-
     }
 
     &__title {
@@ -75,6 +73,10 @@
       margin-right: 27rem;
       transform: skewX(30deg);
       cursor: pointer;
+      &:hover {
+        transform: scaleX(1.2) scaleY(1.2);
+        transition: all 1s;
+      }
 
       &-inner {
         color: $color-white;
@@ -90,6 +92,10 @@
         text-align: center;
         transform: skewX(-30deg);
         cursor: pointer;
+        &:hover {
+          transform: skewX(0deg);
+          transition: all 1s;
+        }
       }
     }
 
@@ -110,6 +116,11 @@
         background-color: $color-black;
         border: 1px solid transparent;
         border-radius: 50%;
+        &:hover {
+          background-color: $color-white;
+          border: 1px solid $color-black;
+          cursor: pointer;
+        }
       }
     }
   }
