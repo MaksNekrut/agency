@@ -73,10 +73,6 @@
       margin-right: 27rem;
       transform: skewX(30deg);
       cursor: pointer;
-      &:hover {
-        transform: scaleX(1.2) scaleY(1.2);
-        transition: all 1s;
-      }
 
       &-inner {
         color: $color-white;
@@ -92,10 +88,6 @@
         text-align: center;
         transform: skewX(-30deg);
         cursor: pointer;
-        &:hover {
-          transform: skewX(0deg);
-          transition: all 1s;
-        }
       }
     }
 
